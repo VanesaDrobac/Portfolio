@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="Vanesa Drobac">
+    <meta name="description" content="Moj Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moj Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/815a5b07b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+             <img src="images/images/VD-logo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Font-end developer</p>
+                <h1>Hi, I'm <span>Vanesa</span><br>Drobac from Croatia</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- -------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/images/slika1 (1).png" alt="Picture1">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>During my studies, I took on a leadership role at a Coffee house, where I successfully increased sales, developed marketing strategies, maintained partnerships with suppliers, and conducted market research.</p><br><br>
+                    <p>In marketing, I have experience with promotional campaigns, meta tag advertising, website management,<br>and tools like Google Trends and Google Analytics.</p><br><br> 
+                    <p>In IT, I independently developed a website using my acquired knowledge, research skills, and online resources. This project reflects my ability to learn quickly, adapt, and apply technical skills effectively.</p><br><br> 
+                    <p>I am eager to further develop my expertise in both Marketing and Front-end development, contributing innovative and strategic solutions to dynamic projects.</p> 
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Developer</span><br>Coding, development and responsive design</li>
+                            <li><span>Marketing Specialist</span><br>Digital marketing and market research</li>
+                            <li><span>Sales Manager</span><br>Creating sales plans, managing customer needs and analyze sales data</li>
+                        </ul>
+                    </div><div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - 2025</span><br>Manager of Coffe shop</li>
+                            <li><span>2020 - 2022</span><br>Marketing manager</li>
+                            <li><span>2017 - 2020</span><br>Loan archiver</li>
+                        </ul>
+                    </div><div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - 2024</span><br>Front-end Developer</li>
+                            <li><span>2020 - 2023</span><br>Master of Economics majoring in Marketing</li>
+                            <li><span>2017 - 2020</span><br>Bachelor of Economics majoring in Trade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- ------------services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-end development</h2>
+                    <p>Focus on building the visual and interactive aspects of a website or web application such as: <br><br> Responsive web development and HTML, CSS, and JavaScript development.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-photo-film"></i>
+                    <h2>Digital marketing</h2>
+                    <p>Promoting businesses online and increasing brand visibility. <br><br> Key services include: PPC advertising, social media; content; email and influencer marketing, web analytics and performance tracking.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                    <h2>Increasing sales</h2>
+                    <p>Creating customized plans to target the right audience, identifying and attracting potential customers through digital and offline channels.<br><br> Enhancing website and sales funnel efficiency to convert visitors into buyers, pricing & promotions, etc.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ------------------portfolio---------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/images/pic2.jpg" alt="Mywork1">
+                    <div class="layer">
+                        <h3>Digital Marketing</h3>
+                        <p>Creation and dissemination of content through digital media channels.</p>
+                        <a href="https://www.instagram.com/caffebarviva21/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/images/pic3.jpg" alt="Mywork2">
+                    <div class="layer">
+                        <h3>This Website</h3>
+                        <p>Through coding and using HTML, CSS and JS I created this Website that is also complete responsive design.</p>
+                        <a href="#header"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#contact" class="btn">See more in CV</a>
+        </div>
+     </div>
+     <!-- ------------contact------------ -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="social-icons">
+                        <a href="mailto:vanesadrobac@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.facebook.com/vdrobac7"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/vanesa.drobac/"><i class="fa-brands fa-instagram"></i></a> 
+                        <a href="https://www.linkedin.com/in/vanesa-drobac/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/images/Životopis 2025..pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>   
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Vanesa Drobac. Made with <i class="fa-solid fa-heart-pulse"></i> </p>
+        </div>
+      </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab (tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu (){
+        sidemenu.style.right = "0";
+    }
+    function closemenu (){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz_xoddBwgSs5_7uVguSh-JvLcwS3093V1ECIQce25wofSjQmsvfKWhTh0XxHAFATd5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
