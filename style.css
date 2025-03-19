@@ -183,7 +183,6 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 10px;
     display: block;
-    margin-left: 40px;
     transition: transform 0.5s;
 }
 .layer{
@@ -347,6 +346,15 @@ nav .fas{
         font-size: 40px;
         margin-bottom: 20px;
     }
+    .layer {
+        font-size: 16px;
+    }
+    .layer h3{
+        font-size: 20px;
+    }
+    .layer a{
+        font-size: 16px;
+    }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
     }
@@ -357,7 +365,7 @@ nav .fas{
         font-size: 14px;
     }
    .tab-links{
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 20px;
    }
    .contact-left, .contact-right{
