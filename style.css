@@ -309,8 +309,8 @@ nav .fas{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/bckg-sc1.png);
-        width: 130%;
-        height:130vh;
+        width: 100%;
+        height:100vh;
     }
     .header-text{
         margin-top: 40%;
