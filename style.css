@@ -265,14 +265,25 @@ nav ul li a:hover::after{
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
-    margin-left: 55px;
+    margin-left: 15px;
     margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 14px 60px;
+    
 }
 .btn.btn3{
-display: inline-block;
+    display: inline-block;
     background: #ff004f;
-    margin-left: 55px;
-    margin-top: 60px;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding: 14px 63px;
+}
+.btn.btn4{
+    display: inline-block;
+    background: #ff004f;
+    margin-top: 20px;
+    font-size: 18px;
+
 }
 .contact-right form{
     width: 100%;
@@ -287,20 +298,6 @@ form input, form textarea{
     color: #ffff;
     font-size: 18px;
     border-radius: 6px;
-}
-form .btn2{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-left: 55px;
-    cursor: pointer;
-}
-form .btn3{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 40px;
-    margin-left: 55px;
-    cursor: pointer;
 }
 .copyright {
     width: 100%;
@@ -384,9 +381,9 @@ nav .fas{
    .contact-left, .contact-right{
         flex-basis: 100%;
    }
+   }
     .copyright{
         font-size: 14px;   
-    }
     }
 #msg {
     color: #61b752;
