@@ -285,7 +285,6 @@ nav ul li a:hover::after{
     margin-top: 20px;
     font-size: 18px;
     cursor: pointer;
-
 }
 .contact-right form{
     width: 100%;
